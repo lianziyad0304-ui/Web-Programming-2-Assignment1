@@ -1,10 +1,10 @@
 <?php
 $student = [
-    ["name" => "أحمد", "grade" => 95, "age" => 20],
-    ["name" => "محمود", "grade" => 85, "age" => 21],
-    ["name" => "سعيد", "grade" => 75, "age" => 22],
-    ["name" => "خالد", "grade" => 65, "age" => 20],
-    ["name" => "عمر", "grade" => 55, "age" => 21]
+    ["name" => "عمر", "grade" => 95, "age" => 20],
+    ["name" => "عبدالله", "grade" => 85, "age" => 21],
+    ["name" => "دان", "grade" => 75, "age" => 22],
+    ["name" => "احمد", "grade" => 65, "age" => 20],
+    ["name" => "علي", "grade" => 55, "age" => 21]
 ];
 
 function calculateStatus($grade) {
