@@ -25,7 +25,6 @@ $highestGrade = 0;
 $lowestGrade = 100;
 $totalGrades = 0;
 $passedStudents = 0;
-$studentCount = 5;
 
 foreach ($student as $s) {
     if ($s['grade'] > $highestGrade) {
@@ -42,7 +41,7 @@ foreach ($student as $s) {
     }
 }
 
-$averageGrade = $totalGrades / $studentCount;
+$averageGrade = $totalGrades / count($student);
 ?>
 
 <!DOCTYPE html>
